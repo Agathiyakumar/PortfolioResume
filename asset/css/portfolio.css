@@ -1,0 +1,320 @@
+
+.bg{
+    padding: 0px 100px;
+}
+.Nav{
+    font-weight: 600;
+    margin-top: 20px;
+    display: flex;justify-content: space-between;
+    font-size: 18px;
+    font-family: Poppins;
+
+}
+.l:hover{
+    color: #6E06F2;
+    cursor: pointer;
+    text-decoration: underline solid black;
+}
+.link{
+    display: flex;
+    column-gap: 30px;
+    list-style-type: none;
+}
+.educate{
+    font-weight: bold;
+    font-size: 56px;
+    font-family: "Poppins", "Poppins Placeholder", sans-serif;
+}
+.btn1{
+    border-radius: 50px !important;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}
+.btn2{
+    background: #6E06F2 !important;
+    color: white !important;
+}
+.agathi{
+    font-weight: bold;
+    font-family: "Poppins", "Poppins Placeholder", sans-serif;
+}
+.btn2:hover{
+    background-color: white !important;
+    color: black !important;
+    border: 0.5px solid black ;
+}
+.btn3:hover{
+    background: #6E06F2 !important;
+    color: white !important;
+    border: none !important;
+}
+.get{
+    display: flex;
+    column-gap: 20px;
+}
+.btn3{
+    border:0.5px solid black !important;
+}
+.main{
+    padding: 150px 0px 50px;
+}
+.hey{
+    color: rgb(0, 0, 0);
+    font-family: poppins;
+    font-size: 24px;
+}
+.hey1{
+    color: rgb(108, 106, 106);
+    font-family: poppins;
+    font-size: 24px;
+}
+.front{
+    font-family: "Poppins", "Poppins Placeholder", sans-serif;
+    font-weight: 700;
+    font-size: 90px;
+}
+.end{
+    font-family: "Poppins", "Poppins Placeholder", sans-serif;
+    font-weight: 700;
+    font-size: 90px;
+}
+.fin{
+    position: relative;
+}
+.finger{
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    margin-left: 190px;
+}
+
+.f{
+    color: #6E06F2 !important;
+}
+.profile{
+    padding: 20px;
+    margin-left: 200px;
+    border-radius: 50%;
+    border: solid grey;
+}
+.project{
+    padding: 50px 0px 50px;
+    margin-top: 50px;
+}
+.pro{
+    font-size: 55px;
+    font-family: "Poppins", "Poppins Placeholder", sans-serif;
+    font-weight: bold;
+}
+.pi{
+    border-radius: 20px;
+    border: 1px solid grey;
+    padding: 30px;
+
+}
+.pc{
+    margin-top: 1rem;
+}
+.ph{
+    padding: 20px 0px 20px ;
+    font-size: 24px;
+    font-family: "Poppins";
+    font-weight:bold;
+    color: #24262F !important;
+}
+.pd{
+    font-size: 18px;
+    font-family: "Poppins", "Poppins Placeholder", sans-serif;
+    color: #4E525A !important;
+}
+.r1{
+    margin-top: 2rem !important;
+}
+.experience{
+    padding: 100px 0px 50px;
+}
+.exp{
+    font-weight: bold;
+    font-size: 56px;
+    font-family: "Poppins", "Poppins Placeholder", sans-serif;
+}
+.etitle{
+    color: #6E06F2 !important;
+    font-size: 22px !important;
+    font-family: "Poppins", "Poppins Placeholder", sans-serif !important;
+    font-weight: bold !important;
+}
+.edes{
+    font-size: 22px !important;
+    font-family: "Poppins", "Poppins Placeholder", sans-serif !important;
+    font-weight: 500 !important;
+}
+.sube{
+    font-size: 13px;
+    font-family: "Poppins", "Poppins Placeholder", sans-serif !important;
+}
+.ecol{
+    border-left: 4px solid  #6E06F2 !important;
+    margin-left: 10px;
+}
+.ex{
+    padding-top: 50px;
+}
+.e{
+    font-size: 16px;
+    font-family: "Poppins", "Poppins Placeholder", sans-serif !important;
+    font-weight: 500;
+    color: #4E525A;
+}
+.skill{
+    font-weight: bold;
+    font-size: 56px;
+    font-family: "Poppins", "Poppins Placeholder", sans-serif;
+}
+.skills{
+    padding: 50px 0px 100px;
+}
+.ecol1{
+    border-left: 4px solid black;
+    margin-left: 10px;
+
+}
+.stitle{
+    margin-top: 30px;
+    font-size: 24px;
+    font-family: "Poppins", "Poppins Placeholder", sans-serif !important;
+    font-weight: bold !important;
+}
+.skilldes{
+    font-family: "Poppins", "Poppins Placeholder", sans-serif !important;
+    font-size: 18px !important;
+    color: #4E525A;
+    font-weight: 500;
+}.skilldes1{
+    font-family: "Poppins", "Poppins Placeholder", sans-serif !important;
+    font-size: 18px !important;
+    margin-top: 2rem;
+    color: #4E525A;
+    font-weight: 500;
+}
+.mystory{
+    font-weight: bold;
+    font-size: 56px;
+    font-family: "Poppins", "Poppins Placeholder", sans-serif;
+}
+.my{
+    padding: 100px 0px;
+}
+.story{
+    color: #4E525A;
+    font-size: 18px;
+    padding-top: 20px;
+    font-family: "Poppins", "Poppins Placeholder", sans-serif;
+    text-align: justify;
+}
+
+.foot{
+    display: flex;
+    column-gap: 50px;
+
+}
+.footer{
+    padding: 100px 0px 50px;
+}
+.ft{
+    text-decoration: none !important;
+    color: #4E525A;
+    font-size: 18px !important;
+    font-family: "Poppins", "Poppins Placeholder", sans-serif !important;
+    font-weight: 600;
+}
+.int{
+    margin-top: 2rem;
+    font-size: 22px;
+    color: #4E525A;
+    font-family: "Poppins", "Poppins Placeholder", sans-serif !important;
+    font-weight: bold;
+}
+.touch{
+    font-weight: bold;
+    font-size: 56px;
+    font-family: "Poppins", "Poppins Placeholder", sans-serif;
+}
+.for{
+    width: 500px !important;
+    font-family: "Poppins", "Poppins Placeholder", sans-serif;
+}
+.i{
+    margin-top: 10px;
+}
+.connect{
+    font-size: 18px !important;
+    padding-top: 30px;
+    font-family: "Poppins", "Poppins Placeholder", sans-serif;
+    text-align: justify;
+}
+.btn4{
+    margin-top: 1rem;
+    background: #6E06F2 !important;
+    color: white !important;
+    margin-left: 170px;
+}
+.gt{
+    border-left: 2px solid #000000;
+    border-right: 1px solid #6E06F2;
+}
+.clink{
+    font-size: 18px;
+    font-family: "Poppins", "Poppins Placeholder", sans-serif;
+    margin-left: 20px;
+    margin-top: 30px;
+    color: #4E525A;
+
+}
+.ct{
+    padding: 20px 0px 20px
+}
+.ac{
+    color: #000000;
+    font-size: 24px;
+    margin-left: 20px;
+}
+.logo{
+    text-align: right;
+}
+.copyright{
+    text-align: right;
+    margin-top: 50px;
+}
+.ppi img{
+    transition: transform 1s ease;
+}
+.ppi:hover img{
+    transform: scale(1.08);
+}
+.resume{
+    text-decoration: none;
+    font-family: "Poppins", "Poppins Placeholder", sans-serif;
+    color: white;
+}
+@media screen and (max-width:780px) {
+    .bg{
+        padding: 50px;
+        
+    }
+    .rr1{
+        width: 700px;
+        display: flex;
+        flex-direction: column;
+    }
+    .profile{
+        margin: 0;
+    }
+    .fin{
+        position: static;
+    }
+    .my{
+        margin: 0;
+        padding: 0;
+    }
+    
+}
