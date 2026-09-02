@@ -377,3 +377,155 @@
     .front { font-size: 45px; }
     .pi { height: 240px !important; }
 }
+
+/* UX/UI portfolio visual system */
+:root {
+    --ink: #16141f;
+    --muted: #656174;
+    --surface: #ffffff;
+    --lavender: #f1edff;
+    --accent: #6e06f2;
+    --line: #e8e4f0;
+}
+
+html { scroll-behavior: smooth; }
+
+body.bg {
+    background:
+        radial-gradient(circle at 84% 4%, rgba(151, 108, 255, .14), transparent 22rem),
+        radial-gradient(circle at 8% 35%, rgba(110, 6, 242, .06), transparent 20rem),
+        #fcfbff;
+    color: var(--ink);
+}
+
+.Nav {
+    position: relative;
+    z-index: 2;
+    align-items: center;
+    margin-top: 28px;
+    padding: 12px 16px 12px 22px;
+    background: rgba(255, 255, 255, .72);
+    border: 1px solid rgba(232, 228, 240, .9);
+    border-radius: 18px;
+    box-shadow: 0 12px 35px rgba(45, 25, 89, .06);
+    backdrop-filter: blur(16px);
+}
+
+.agathi { letter-spacing: -.06em; font-size: 22px; }
+.agathi span { color: var(--accent); }
+.link { margin: 0; align-items: center; }
+.l { color: #4f4a5b; font-size: 14px; transition: color .2s ease; }
+.l:hover { color: var(--accent); text-decoration: none; }
+
+.btn { font-family: Poppins, sans-serif !important; font-weight: 600 !important; }
+.btn1, .btn2, .btn3, .btn4 {
+    border-radius: 10px !important;
+    padding: 11px 20px !important;
+    transition: transform .2s ease, box-shadow .2s ease, background .2s ease !important;
+}
+.btn1, .btn2, .btn4 { box-shadow: 0 10px 22px rgba(110, 6, 242, .2); }
+.btn1 { background: var(--ink) !important; color: white !important; border: 0 !important; }
+.btn1:hover, .btn2:hover, .btn4:hover { transform: translateY(-2px); }
+.btn3 { border-color: #d5cedf !important; background: rgba(255,255,255,.65) !important; }
+.btn3:hover { transform: translateY(-2px); }
+
+.main { padding: 120px 0 96px; }
+.rr1 { align-items: center; }
+.hey, .section-kicker {
+    color: var(--accent);
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+}
+.hey { margin-bottom: 18px; }
+.front { max-width: 720px; color: var(--ink); font-size: clamp(64px, 7.3vw, 104px); letter-spacing: -.075em; line-height: .96; }
+.hey1 { max-width: 620px; margin: 28px 0 32px; color: var(--muted); font-size: 19px; line-height: 1.7; }
+.profile {
+    display: block;
+    width: min(390px, 100%);
+    margin-left: auto;
+    border: 12px solid rgba(255,255,255,.82);
+    box-shadow: 18px 18px 0 var(--lavender), 0 24px 60px rgba(50, 30, 85, .16);
+    filter: grayscale(100%);
+}
+.finger { opacity: .5; }
+.get { gap: 12px; }
+
+.my, .experience, .project, .skills, .contact { position: relative; }
+.my { max-width: 1040px; padding: 112px 0 120px; }
+.section-kicker { margin: 0 0 15px; }
+.mystory, .educate, .exp, .pro, .skill, .touch { color: var(--ink); letter-spacing: -.055em; line-height: 1.02; }
+.mystory { font-size: clamp(44px, 5vw, 68px); }
+.story { max-width: 800px; color: var(--muted); font-size: 19px; line-height: 1.9; text-align: left; }
+
+.education, .experience { border-top: 1px solid var(--line); padding-top: 80px; }
+.experience { padding-bottom: 84px; }
+.educate, .exp { font-size: clamp(42px, 5vw, 62px); }
+.ex { padding-top: 42px; }
+.etitle { letter-spacing: -.025em; }
+.edes { color: var(--ink); }
+.e { line-height: 1.65; }
+
+.project { padding: 100px 0 112px; margin-top: 0; border-top: 1px solid var(--line); }
+.pro { font-size: clamp(44px, 5.3vw, 70px); margin-bottom: 44px; }
+.pc .row { row-gap: 42px; }
+.r1 { margin-top: 42px !important; }
+.ppi { overflow: hidden; border-radius: 18px; background: #efedf4; }
+.pi { width: 100%; border: 0; border-radius: 18px; padding: 0; transition: transform .55s cubic-bezier(.2,.7,.2,1) !important; }
+.ppi:hover img { transform: scale(1.045); }
+.ph { padding: 18px 0 6px; margin: 0; font-size: 21px; letter-spacing: -.035em; }
+.project-type { margin: 0 0 9px; color: var(--accent); font-size: 11px; font-weight: 700; letter-spacing: .08em; text-transform: uppercase; }
+.pd { margin: 0; color: var(--muted) !important; font-size: 15px; font-weight: 500; line-height: 1.65; }
+.pd i { color: var(--accent); font-size: 13px; }
+
+.skills { padding: 96px 0 116px; border-top: 1px solid var(--line); }
+.skill { font-size: clamp(44px, 5vw, 68px); }
+.s { margin-top: 20px; }
+.s > div { margin-top: 18px; }
+.s > div > * { margin-left: 20px; margin-right: 20px; }
+.s > div { min-height: 260px; padding: 10px 0 24px; border: 1px solid var(--line); border-radius: 16px; background: rgba(255,255,255,.7); transition: transform .2s ease, box-shadow .2s ease; }
+.s > div:hover { transform: translateY(-5px); box-shadow: 0 18px 40px rgba(45, 25, 89, .09); }
+.stitle { font-size: 21px; }
+.skilldes, .skilldes1 { color: var(--muted); font-size: 15px !important; }
+.skilldes1 { margin-top: 22px; }
+
+.contact { padding: 92px 0 45px; border-top: 1px solid var(--line); }
+.touch { font-size: clamp(44px, 5vw, 68px); }
+.connect { max-width: 770px; color: var(--muted); line-height: 1.75; text-align: left; }
+.ct { margin-top: 24px; padding: 30px; border-radius: 20px; background: var(--ink); color: white; }
+.gt { border: 0; }
+.for { width: 100% !important; }
+.form-control.i { padding: 13px 15px; border: 1px solid #413a50; background: #26222f; color: white; }
+.form-control.i::placeholder { color: #afa8bc; }
+.form-control.i:focus { border-color: #b694ff; box-shadow: 0 0 0 .2rem rgba(166, 119, 255, .18); }
+#t { min-height: 120px; }
+.btn4 { margin-left: 0; background: #a875ff !important; }
+.cet { display: flex; flex-direction: column; justify-content: center; }
+.clink { margin: 0 0 20px 28px; color: #e2ddea; font-size: 16px; }
+.clink i { margin-right: 8px; }
+
+.footer { padding-top: 70px; }
+.ft:hover { color: var(--accent); }
+.int { color: var(--ink); }
+.ac { transition: color .2s ease; }
+.ac:hover { color: var(--accent); }
+
+@media screen and (max-width: 991px) {
+    .profile { margin-left: auto; }
+    .s > div { min-height: 230px; }
+}
+
+@media screen and (max-width: 767px) {
+    .Nav { padding: 10px 12px 10px 16px; }
+    .main { padding: 76px 0 70px; }
+    .front { font-size: clamp(52px, 15vw, 70px); }
+    .hey1 { margin: 20px 0 28px; }
+    .profile { box-shadow: 12px 12px 0 var(--lavender), 0 20px 45px rgba(50,30,85,.15); }
+    .my, .project, .skills, .contact { padding: 72px 0; }
+    .education, .experience { padding-top: 68px; }
+    .ct { margin-left: 0; margin-right: 0; padding: 24px 18px; }
+    .gt { border-bottom: 1px solid #4b445a; }
+    .clink { margin-left: 0; }
+    .s > div { min-height: auto; padding-bottom: 18px; }
+}
