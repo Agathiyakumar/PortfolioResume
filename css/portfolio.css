@@ -1,6 +1,7 @@
 
 .bg{
     padding: 0px 100px;
+    overflow-x: hidden;
 }
 .Nav{
     font-weight: 600;
@@ -95,6 +96,8 @@
     margin-left: 200px;
     border-radius: 50%;
     border: solid grey;
+    max-width: 100%;
+    height: auto;
 }
 .project{
     padding: 50px 0px 50px;
@@ -109,6 +112,7 @@
     border-radius: 20px;
     border: 1px solid grey;
     padding: 30px;
+    object-fit: cover;
 
 }
 .pc{
@@ -241,6 +245,7 @@
 }
 .for{
     width: 500px !important;
+    max-width: 100%;
     font-family: "Poppins", "Poppins Placeholder", sans-serif;
 }
 .i{
@@ -296,25 +301,79 @@
     font-family: "Poppins", "Poppins Placeholder", sans-serif;
     color: white;
 }
-@media screen and (max-width:780px) {
-    .bg{
-        padding: 50px;
-        
-    }
-    .rr1{
-        width: 700px;
-        display: flex;
-        flex-direction: column;
-    }
-    .profile{
-        margin: 0;
-    }
-    .fin{
-        position: static;
-    }
-    .my{
-        margin: 0;
-        padding: 0;
-    }
-    
+@media screen and (max-width: 991px) {
+    .bg { padding: 0 48px; }
+
+    .main { padding-top: 100px; }
+    .front { font-size: clamp(58px, 9vw, 78px); }
+    .hey1 { font-size: 20px; }
+    .profile { margin-left: 40px; }
+
+    .project .col-3 { width: 50%; }
+    .project .r1 .col-6 { width: 100%; margin-top: 2rem; }
+    .project .r1 .col-3 { width: 50%; }
+    .skills .col-3 { width: 50%; }
+    .for { width: 100% !important; }
+}
+
+@media screen and (max-width: 767px) {
+    .bg { padding: 0 20px; }
+
+    .Nav { align-items: center; margin-top: 16px; }
+    .agathi { margin-bottom: 0; font-size: 20px; }
+    .link { display: none; }
+    .btn1 { padding: 8px 16px !important; }
+
+    .main { padding: 64px 0 64px; }
+    .rr1 { display: flex; flex-direction: column-reverse; gap: 32px; }
+    .rr1 > .col-6, .ct > .col-6, footer .col-6 { width: 100%; }
+    .fin { position: static; }
+    .finger { display: none; }
+    .profile { display: block; width: min(290px, 82vw); height: auto; margin: 0 auto; padding: 12px; }
+    .hey { font-size: 20px; }
+    .front { font-size: clamp(48px, 15vw, 68px); line-height: 1.05; }
+    .hey1 { font-size: 17px; line-height: 1.65; }
+    .hey1 br { display: none; }
+    .get { flex-wrap: wrap; gap: 12px; }
+    .get .btn { flex: 1 1 150px; }
+
+    .my, .experience, .project, .skills { padding: 64px 0; margin-top: 0; }
+    .mystory, .educate, .exp, .pro, .skill, .touch { font-size: clamp(38px, 10vw, 48px); }
+    .story, .connect { font-size: 16px !important; text-align: left; }
+
+    .education .ex, .experience .ex { padding-top: 30px; }
+    .education .col-3, .education .col-8, .experience .col-3, .experience .col-8 { width: 100%; }
+    .ecol, .ecol1 { margin-left: 0; margin-bottom: 16px; padding-left: 14px; }
+    .etitle, .edes { font-size: 19px !important; }
+    .e { font-size: 15px; }
+
+    .project .col-3, .project .r1 .col-3, .project .r1 .col-6 { width: 100%; margin-top: 28px; }
+    .project .row > :first-child { margin-top: 0; }
+    .project .r1 { margin-top: 0 !important; }
+    .pi { height: 280px !important; padding: 18px; }
+    .ph { padding: 14px 0 8px; font-size: 20px; }
+    .pd { font-size: 16px; }
+
+    .skills .col-3 { width: 100%; }
+    .stitle { margin-top: 24px; }
+    .skilldes1 { margin-top: 12px; }
+
+    .ct { gap: 36px; }
+    .gt { border-left: 0; border-right: 0; border-bottom: 1px solid #6E06F2; padding-bottom: 32px; }
+    .btn4 { display: block; margin-left: auto; margin-right: auto; }
+    .cet { padding-left: 12px; }
+    .clink { margin: 0 0 20px; overflow-wrap: anywhere; font-size: 16px; }
+
+    .footer { padding: 64px 0 32px; }
+    .foot { flex-wrap: wrap; gap: 14px 24px; }
+    .logo, .copyright { text-align: left; }
+    .logo { margin-top: 40px; }
+    .ac { margin-left: 0; margin-right: 20px; }
+    .copyright { margin-top: 28px; }
+}
+
+@media screen and (max-width: 380px) {
+    .bg { padding: 0 16px; }
+    .front { font-size: 45px; }
+    .pi { height: 240px !important; }
 }
