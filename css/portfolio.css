@@ -1,3 +1,6 @@
+html{
+    scroll-behavior: smooth;
+}
 
 .bg{
     padding: 0px 100px;
@@ -26,9 +29,11 @@
     font-size: 56px;
     font-family: "Poppins", "Poppins Placeholder", sans-serif;
 }
-.btn1{
+.btnn1{
+    
     border-radius: 50px !important;
     box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+    
 }
 .btn2{
     background: #6E06F2 !important;
@@ -301,6 +306,7 @@
     font-family: "Poppins", "Poppins Placeholder", sans-serif;
     color: white;
 }
+
 @media screen and (max-width: 991px) {
     .bg { padding: 0 48px; }
 
@@ -496,6 +502,7 @@ body.bg {
 .ct { margin-top: 24px; padding: 30px; border-radius: 20px; background: var(--ink); color: white; }
 .gt { border: 0; }
 .for { width: 100% !important; }
+.contact-form { display: grid; gap: 14px; }
 .form-control.i { padding: 13px 15px; border: 1px solid #413a50; background: #26222f; color: white; }
 .form-control.i::placeholder { color: #afa8bc; }
 .form-control.i:focus { border-color: #b694ff; box-shadow: 0 0 0 .2rem rgba(166, 119, 255, .18); }

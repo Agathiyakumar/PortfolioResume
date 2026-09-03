@@ -13,23 +13,22 @@
 </head>
 <body class="bg">
     
-<div class="home">
+<div class="home" id="home-target">
     <div class="Nav">
         <p class="agathi">Agathi<span>.</span></p>
         <ul class="link">
-            <li class="l">Home</li>
-            <li class="l">About</li>
-            <li class="l">Process</li>
-            <li class="l">Experience</li>
-            <li class="l">Case Studies</li>
+            <li class="l" ><a href="#home-target" class="ft">Home</a></li>
+            <li class="l"><a href="#about-target" class="ft">About</a></li>
+            <li class="l"><a href="#experience-target" class="ft">Experience</a></li>
+            <li class="l"><a href="#project-target" class="ft">Case Studies</a></li>
         </ul>
-        <button class="btn btn1">Contact</button>
+        <button class="btn btnn1" ><a href="#contact-target" class="ft">Contact</a></button>
     </div>
 </div>
     <div class="main">
         <div class="row rr1">
             <div class="col-6 fin">
-                <img class="finger" src="./asset/image/five-finger.png" alt="">
+                
         <h2 class="hey">✦ UX/UI designer &amp; frontend creator</h2>
         <h1 class="front">I design <span class="f">digital</span><br>experiences.</h1>
         <p class="hey1">I turn complex ideas into simple, useful interfaces that people enjoy using — from early flows to polished, responsive products.</p>
@@ -41,10 +40,10 @@
 </div>
 <div class="get">
     <button class="btn btn2"><a class="resume" href="https://drive.google.com/file/d/1kBGuWeykprvt41Yj8LX3jBLXQxksEnDE/view?usp=sharing">Download CV</a></button>
-    <button class="btn btn3">Browse Projects</button>
+    
 </div>
 </div>
-<div class="my">
+<div class="my" id="about-target">
     <p class="section-kicker">01 — About</p>
     <h1 class="mystory">Design with clarity,<br><span class="f">build with purpose.</span></h1>
     <p class="story">My practice sits at the intersection of <span class="f">UX thinking</span> and frontend craft. Since 2023, I’ve helped shape digital experiences while pursuing my degree in Information Technology. Today, I bring research, thoughtful interaction design, and responsive implementation together to create work that feels as good as it functions.</p>
@@ -82,7 +81,7 @@
         </div>
     </div>
 </div>
-<div class="experience">
+<div class="experience" id="experience-target">
     <h1 class="exp">Experience<span class="f">.</span></h1>
     <div class="row ex">
         <div class="col-3 ecol">
@@ -99,7 +98,7 @@
         </div>
     </div>
 </div>
-<div class="project">
+<div class="project" id="project-target">
     <p class="section-kicker">02 — Selected work</p>
     <h1 class="pro">Selected <span class="f">case studies.</span></h1>
     <div class="pc">
@@ -196,17 +195,20 @@
         </div>
     </div>
 </div>
-<div class="contact">
+<div class="contact" id="contact-target">
     <h1 class="touch">Get In Touch<span class="f">.</span></h1>
     <p class="connect">Looking to partner or work together? Reach out through the form and I'll get back to you in the next 48 hours <span class="f">connect</span>.</p>
     <div class="row ct">
         <div class="col-6 gt">
             <div class="for">
-                <form action="#">
-                    <input type="text" class="form-control i" placeholder="Name">
-                    <input type="text" class="form-control i" placeholder="email">
-                    <textarea name="t"  class="form-control i" id="t" placeholder="Enter Project Description"></textarea>
-                    <button class="btn btn4">Submit</button>
+                <!-- FormSubmit forwards each valid submission to harishagathi@gmail.com. -->
+                <form class="contact-form" action="https://formsubmit.co/harishagathi@gmail.com" method="POST">
+                    <input type="hidden" name="_subject" value="New portfolio project enquiry">
+                    <input type="hidden" name="_template" value="table">
+                    <input type="text" class="form-control i" id="client-name" name="client_name" placeholder="Your name" autocomplete="name" required>
+                    <input type="email" class="form-control i" id="client-email" name="client_email" placeholder="Your email" autocomplete="email" required>
+                    <textarea name="project_description" class="form-control i" id="t" placeholder="Tell me about your project" required></textarea>
+                    <button class="btn btn4" type="submit">Send message</button>
                 </form>
             </div>
         </div>
@@ -222,10 +224,10 @@
         <div class="row">
             <div class="col-6">
     <div class="foot">
-        <a class="ft" href="#">Home</a>
-        <a class="ft" href="#">Projects</a>
-        <a class="ft" href="#">About</a>
-        <a class="ft" href="#">Contact</a>
+        <a class="ft" href="#home-target">Home</a>
+        <a class="ft" href="#project-target">Projects</a>
+        <a class="ft" href="#about-target">About</a>
+        <a class="ft" href="#contact-target">Contact</a>
     </div>
     <div class="interest">
         <p class="int">Interested in working together<span class="f">?</span></p>
